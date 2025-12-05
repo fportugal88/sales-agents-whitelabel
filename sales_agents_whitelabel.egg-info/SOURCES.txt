@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+sales_agents_whitelabel.egg-info/PKG-INFO
+sales_agents_whitelabel.egg-info/SOURCES.txt
+sales_agents_whitelabel.egg-info/dependency_links.txt
+sales_agents_whitelabel.egg-info/requires.txt
+sales_agents_whitelabel.egg-info/top_level.txt
+src/__init__.py

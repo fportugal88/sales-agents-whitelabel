@@ -1,0 +1,24 @@
+# Strands Agents Framework
+strands-agents
+
+# Pydantic (usado em settings e models)
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+email-validator>=2.0.0
+
+# FastAPI (API server)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# HTTP client (para MCP tools)
+httpx>=0.25.0
+
+# Logging
+structlog>=23.2.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# SSL/Certificate handling (optional, for corporate proxies)
+# Install with: pip install truststore
+# truststore>=0.9.0

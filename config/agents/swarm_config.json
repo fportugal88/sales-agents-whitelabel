@@ -1,0 +1,51 @@
+{
+  "swarm_id": "sales_swarm",
+  "name": "Sales Swarm - Maquinona iFood Pago",
+  "description": "Swarm de agentes especializados para vendas da Maquinona iFood Pago",
+  "entry_point": "researcher",
+  "max_handoffs": 20,
+  "max_iterations": 20,
+  "execution_timeout": 900.0,
+  "node_timeout": 300.0,
+  "repetitive_handoff_detection_window": 8,
+  "repetitive_handoff_min_unique_agents": 3,
+  "agents": [
+    {
+      "name": "researcher",
+      "description": "Coleta e analisa informações do cliente automaticamente no início da conversa",
+      "role": "entry_point"
+    },
+    {
+      "name": "sales_agent",
+      "description": "Agente principal de vendas da Maquinona, personaliza apresentação baseado em necessidades",
+      "role": "sales"
+    },
+    {
+      "name": "qualification_agent",
+      "description": "Qualifica leads usando metodologia BANT (Budget, Authority, Need, Timeline)",
+      "role": "qualification"
+    },
+    {
+      "name": "presentation_agent",
+      "description": "Apresenta soluções personalizadas baseado no perfil do restaurante",
+      "role": "presentation"
+    },
+    {
+      "name": "negotiation_agent",
+      "description": "Trata objeções e negocia termos quando necessário",
+      "role": "negotiation"
+    },
+    {
+      "name": "closing_agent",
+      "description": "Finaliza vendas e coleta informações necessárias para conclusão",
+      "role": "closing"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "created_at": "2025-01-05",
+    "author": "Sales Team iFood Pago",
+    "product": "Maquinona iFood Pago"
+  }
+}
+
